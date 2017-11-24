@@ -1,0 +1,80 @@
+#quoteContainer {
+  width: 50%;
+  padding: 60px 50px 30px 50px;
+  margin: 8% auto;
+  border: 2px dashed black;
+  border-radius: 10px;
+  position: relative;
+}
+
+#quoteIconContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  #quoteIcon {
+    border-radius: 10px;
+    background-color: white;
+    border: 2px dashed black;
+    position: relative;
+    padding: 20px;
+    line-height: 20px;
+    left: -50%;
+    font-size: 3em;
+    top: -40px;
+  }
+}
+#quoteAuthor {
+  text-align: right;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+#buttons {
+  position: absolute;
+  left: 5%;
+  background-color: white;
+  padding: 10px 10px;
+  border: 2px dashed black;
+  border-radius: 10px;
+
+  #twitterLink, #newQuoteButton {
+    color: white;
+  }
+
+  #newQuoteButton:active, #newQuoteButton:focus  {
+    outline: none;
+  }
+
+  #twitterLink {
+    vertical-align: super;
+    padding: 1px 9px 15px 9px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.1em;
+    i {
+      vertical-align: -webkit-baseline-middle;
+    }
+  }
+}
+
+#quoteTextContainer {
+  position: relative;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#quoteTextContainer i {
+  font-size: 2em;
+  margin-right: 0.4em;
+}
+
+#quoteText {
+  font-size: 2em;
+  font-weight: 500;
+  vertical-align: baseline;
+}
+
+#quoteContainer {
+  background-color: white;
+}
